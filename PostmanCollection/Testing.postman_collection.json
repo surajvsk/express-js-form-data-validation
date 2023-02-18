@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "40b140d0-7bce-457d-ac52-4bfbe26d2e0b",
+		"name": "Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8656723"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "Suraj",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "Vishwakarma",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "example@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "userImage",
+							"type": "file",
+							"src": "/C:/Users/SURAJ/Downloads/error 27-01-2023.docx"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/register",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
